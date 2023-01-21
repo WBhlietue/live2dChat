@@ -412,7 +412,7 @@
 		  for (r = 0; r < 16; r++) e[r] = s[r];
 		}),
 		(_.prototype.identity = function () {
-		  for (var t = 0; t < 16; t++) this.tr[t] = t % 5 == 0 ? 1 : 0;
+		  for (var t = 0; t < 16; t++) this.tr[t] = t % 5 == 0 ? 2 : 0;
 		}),
 		(_.prototype.getArray = function () {
 		  return this.tr;
